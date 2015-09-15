@@ -1,0 +1,388 @@
+[
+    {
+        "name": "opauth/opauth",
+        "version": "0.4.4",
+        "version_normalized": "0.4.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/opauth/opauth.git",
+            "reference": "436fb98c2374c9e8ae4d8adddf83214bee4d9c72"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/opauth/opauth/zipball/436fb98c2374c9e8ae4d8adddf83214bee4d9c72",
+            "reference": "436fb98c2374c9e8ae4d8adddf83214bee4d9c72",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "suggest": {
+            "opauth/facebook": "Allows Facebook authentication",
+            "opauth/google": "Allows Google authentication",
+            "opauth/twitter": "Allows Twitter authentication"
+        },
+        "time": "2013-05-10 09:01:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/Opauth/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "U-Zyn Chua",
+                "email": "chua@uzyn.com",
+                "homepage": "http://uzyn.com"
+            }
+        ],
+        "description": "Multi-provider authentication framework for PHP",
+        "homepage": "http://opauth.org",
+        "keywords": [
+            "Authentication",
+            "OpenId",
+            "auth",
+            "facebook",
+            "google",
+            "oauth",
+            "omniauth",
+            "twitter"
+        ]
+    },
+    {
+        "name": "composer/installers",
+        "version": "v1.0.13",
+        "version_normalized": "1.0.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
+            "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
+            "shasum": ""
+        },
+        "replace": {
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-04-09 16:12:43",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "http://dontkry.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "Craft",
+            "Hurad",
+            "MODX Evo",
+            "OXID",
+            "WolfCMS",
+            "agl",
+            "annotatecms",
+            "cakephp",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "mjohnson/transit",
+        "version": "1.5.1",
+        "version_normalized": "1.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/milesj/transit.git",
+            "reference": "01fb3d8300fb4be58370979083404e37eee75afc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/milesj/transit/zipball/01fb3d8300fb4be58370979083404e37eee75afc",
+            "reference": "01fb3d8300fb4be58370979083404e37eee75afc",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-fileinfo": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "aws/aws-sdk-php": "*",
+            "ext-exif": "*",
+            "rackspace/php-opencloud": "*"
+        },
+        "suggest": {
+            "aws/aws-sdk-php": "Upload files to Amazon S3 and Glacier",
+            "ext-exif": "Extract exif data from images",
+            "ext-gd": "Enable the GD library for image transforming",
+            "rackspace/php-opencloud": "Upload files to RackSpace OpenCloud"
+        },
+        "time": "2014-03-31 01:15:36",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Transit": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Miles Johnson",
+                "homepage": "http://milesj.me"
+            }
+        ],
+        "description": "A file uploader with support for validation, image transformation and remote transportation.",
+        "homepage": "http://milesj.me/code/php/transit",
+        "keywords": [
+            "application",
+            "archive",
+            "audio",
+            "cloud",
+            "cloudfiles",
+            "exif",
+            "file",
+            "glacier",
+            "image",
+            "importer",
+            "opencloud",
+            "rackspace",
+            "s3",
+            "text",
+            "transformer",
+            "transit",
+            "transporter",
+            "uploader",
+            "validator",
+            "video"
+        ]
+    },
+    {
+        "name": "mjohnson/uploader",
+        "version": "4.5.3",
+        "version_normalized": "4.5.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/milesj/uploader.git",
+            "reference": "9b6c0bac6c4c87708f0d1787664de73e89f900d2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/milesj/uploader/zipball/9b6c0bac6c4c87708f0d1787664de73e89f900d2",
+            "reference": "9b6c0bac6c4c87708f0d1787664de73e89f900d2",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*",
+            "ext-curl": "*",
+            "ext-fileinfo": "*",
+            "ext-mbstring": "*",
+            "mjohnson/transit": "~1.5",
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "aws/aws-sdk-php": "~2.2",
+            "ext-exif": "Extract exif data from images",
+            "ext-gd": "Enable the GD library for image transforming"
+        },
+        "time": "2014-03-31 01:28:48",
+        "type": "cakephp-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Miles Johnson",
+                "homepage": "http://milesj.me"
+            }
+        ],
+        "description": "File uploader and validation plugin for CakePHP.",
+        "homepage": "http://milesj.me/code/cakephp/uploader",
+        "keywords": [
+            "attachment",
+            "cakephp",
+            "file",
+            "plugin",
+            "uploader",
+            "validation"
+        ]
+    },
+    {
+        "name": "mjohnson/utility",
+        "version": "1.6.8",
+        "version_normalized": "1.6.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/milesj/utility.git",
+            "reference": "3e97eceb802df26c718e70770ac3d0083ded9a9f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/milesj/utility/zipball/3e97eceb802df26c718e70770ac3d0083ded9a9f",
+            "reference": "3e97eceb802df26c718e70770ac3d0083ded9a9f",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "mjohnson/decoda": "Enable Decoda for BBCode parsing in the DecodaHelper",
+            "titon/utility": "Enable Titon to parse feeds in FeedSource and process AJAX in the AjaxHandlerComponent"
+        },
+        "time": "2014-04-23 03:25:56",
+        "type": "cakephp-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Miles Johnson",
+                "homepage": "http://milesj.me"
+            }
+        ],
+        "description": "A collection of CakePHP utility libraries.",
+        "homepage": "http://milesj.me/code/cakephp/utility",
+        "keywords": [
+            "Behavior",
+            "Sitemap",
+            "aggregator",
+            "ajax-handler",
+            "auto-login",
+            "bbcode",
+            "cache-kill",
+            "cacheable",
+            "cakephp",
+            "component",
+            "controller",
+            "convertable",
+            "datasource",
+            "decoda",
+            "enumerable",
+            "feed",
+            "filterable",
+            "helper",
+            "markup",
+            "model",
+            "open-graph",
+            "plugin",
+            "shell",
+            "sluggable",
+            "spam-blocker",
+            "utility",
+            "validateable"
+        ]
+    },
+    {
+        "name": "mjohnson/decoda",
+        "version": "6.5.1",
+        "version_normalized": "6.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/milesj/decoda.git",
+            "reference": "84d1c87de8fb9dcf82f8e41da79c8edea934d50e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/milesj/decoda/zipball/84d1c87de8fb9dcf82f8e41da79c8edea934d50e",
+            "reference": "84d1c87de8fb9dcf82f8e41da79c8edea934d50e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2014-04-16 02:53:23",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Decoda": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Miles Johnson",
+                "homepage": "http://milesj.me"
+            }
+        ],
+        "description": "A lightweight lexical string parser for BBCode styled markup.",
+        "homepage": "http://milesj.me/code/php/decoda",
+        "keywords": [
+            "HOOK",
+            "bbcode",
+            "decoda",
+            "filter",
+            "lexer",
+            "markup",
+            "parser"
+        ]
+    }
+]
